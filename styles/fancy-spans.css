@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*
+CIS-181 Final Project: Wildlife Website (divider flourish)
+Author: Leslie Berrie / mazal bohbot berrie
+Date:   May 04, 2024
+
+Project:  PRAIRE PAWS+CLAWS
+Filename: fancy-spans.css -v.x.23
+*/
+
+h1 {
+  font-family: logoFont;
+  font-size: 1.7em;
+  text-shadow: 4px 4px 3px rgb(188 202 80 / 50%);
+  letter-spacing: .2em;
+  color: rgb(35 129 19);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* flourish: horizontal rule (fatter divider via trial series) */
+.header:before,
+.header:after {
+  content: "";
+  position: absolute;
+  width: 4%;
+  height: 1px;
+  border-top: 4px solid rgb(207, 219, 82);
+  top: 50%;
+}
+
+/* big divider (*text-box cover layer) */
+.header, span {
+  position: relative;
+}
+
+/* big divider (text box) */
+.header.header-ex span {
+  background-color: white;
+  padding: 10px 1em;
+}
+
+/* big divider (divider background: none) */
+.header.header-ex {
+  display: block;
+  padding: 0;
+  background: none;
+}
+
+/* big divider (left & right) */
+.header.header-ex:before {
+  right: 0;
+  margin: 0;
+  width: 100%;
+}
+
+

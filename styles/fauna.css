@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+/*
+CIS-181 Final Project: Wildlife Website (fauna global styles)
+Author: Leslie Berrie / mazal bohbot berrie
+Date:   May 04, 2024
+
+Project:  PRAIRE PAWS+CLAWS
+Filename: fauna.css -v.x.23
+*/
+
+
+/* BIRDS OF ILLINOIS */
+
+.waxwing {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/cedar-waxwing-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.raptor {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/raptor.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.kingfisher {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/belted-kingfisher.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.riverotter {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/river-otter-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.whitetaileddeer {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/white-tailed-deer-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.monarch{
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/monarch-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.animal {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/river-otter-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.animal {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/white-tailed-deer-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.animal{
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/monarch-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.graywolf {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/gray-wolf.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.mountainlion {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/mountain-lion-2.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.porcupine {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/porcupine.jpg);
+  background-size: cover;
+  background-position: center;
+}

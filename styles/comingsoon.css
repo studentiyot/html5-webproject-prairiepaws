@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+/*
+CIS-181 Final Project: Wildlife Website (under construction page styles)
+Author: Leslie Berrie / mazal bohbot berrie
+Date:   May 04, 2024
+
+Project:  PRAIRE PAWS+CLAWS
+Filename: comingsoon.css -v.x.23
+*/
+
+@font-face {
+  font-family: logoFont;
+  src: url('../assets/Evermore-WyDmO.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: logoFont-Italic;
+  src: url('../assets/EvermoreItalic-Eam18.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: splashFont;
+  src: url('../assets/Franie-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: splashFont-Bold;
+  src: url('../assets/Franie-Bold.ttf') format('truetype');
+}
+
+*,
+::before, 
+::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.first-ul-box, .second-ul-box {
+  margin: 0px;
+  float: right;
+}
+
+p.logo {
+  position: fixed;
+  margin: -110px 0 0 20px;
+  background-image: url(../assets/img/icon.png);
+  background-color: rgb(210 205 200);
+  background-size: 180px;
+  background-position: center;
+ }
+
+p.full-logo {
+  height: 100px;
+  min-width: 150px;
+}
+
+ p.half-logo {
+  height: 100px;
+  min-width: 120px;
+}
+
+li {
+  display: flex;
+  float: left;
+}
+
+li.tix, a.tix {
+  background-color: rgb(202 219 42);
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 6px;
+}
+
+li.memb, a.memb {
+  background-color: rgb(104 200 198);
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 6px;
+}
+
+li.donate, a.donate { 
+  background-color: rgb(254 203 0);
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 6px;
+}
+
+li.search {
+  background-color:  black; 
+  color: white;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+li.stretch, p.stretch {
+  text-decoration: none;
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+li.sub-nav, a.sub-nav {
+  color: white;
+  text-decoration: none;
+  padding: 5px 6px;
+  margin: -20px 0px 0px 0px;
+  font-size: 1em;
+  text-shadow: 1px 1px 2px black;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-first {
+  background-color: black;
+  min-width: calc(270px + 1rem);
+}
+
+
+/*  { PLACEHOLDER WILDLIFE HERO }  */
+
+.nav-second-container {
+  background-color: green;
+  background-image: url(../assets/img/elk-dark.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  min-width: calc(270px + 1rem);
+  height: 900px;
+}
+
+.main-container {
+  display: grid;
+  height: 100%;
+}
+
+.main {
+  background-color: white;
+  min-width: 135px;
+  color: rgb(35 129 19);
+  text-align: center;
+}
+
+/* Horizontal Rule Flourish */
+.divider {
+  height: 5px;
+  margin: 0% 45% 0px 45%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.hero {
+  font-size: 145%;
+  color: rgb(210 205 200);
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 3px 2px 2px black;
+}
+
+
+.hero-line1 {
+  font-family: splashFont;
+  letter-spacing: 1.8rem;
+  line-height: 4rem;
+  padding: 20px 0 0 0;
+}
+
+.hero-line2 {
+  font-family: splashFont-Bold;
+  font-size: 550%;
+  letter-spacing: 1.5rem;
+}
+
+.hero-line3 {
+  font-family: splashFont;
+  letter-spacing: .75em;
+  line-height: 6rem;
+}
+
+.sidebar {
+  background-color: orange;
+  flex-grow: 1;
+  flex-basis: 20%;
+  min-width: 135px;
+  padding: .5rem;
+}
+
+
+/*  { PLACEHOLDER ITEMS CONTAINER  }  */
+
+.items-container {
+  display: grid;
+  height: 300px;
+}
+
+.highlight-box {
+  display: grid;
+  height: auto;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: auto;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+/*  { PLACEHOLDER ITEM CARD }  */
+
+.item1 {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/cedar-waxwing-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item2 {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/river-otter-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item3 {
+  background-color: rgb(47 141 89);
+  background-image: url(../assets/img/white-tailed-deer-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: rgb(34 129 19);
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: .25rem;
+  margin-bottom: .75em;
+  text-transform: uppercase;
+  padding: 2px;
+}
+
