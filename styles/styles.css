@@ -47,7 +47,7 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-p.logo {
+.logo {
 /*  position: fixed; */
   margin: -90px 0 0 20px;
   background-image: url(../assets/img/icon.png);
@@ -56,17 +56,17 @@ p.logo {
   background-position: center;
  }
 
-p.full-logo {
+.full-logo {
   height: 100px;
   min-width: 150px;
 }
 
- p.half-logo {
+ .half-logo {
   height: 100px;
   min-width: 120px;
 }
 
-ul.first-ul-box, .second-ul-box {
+.first-ul-box, .second-ul-box {
   margin: 0px;
   float: right;
 }
@@ -131,7 +131,6 @@ li.sub-nav, a.sub-nav {
   padding: .5rem;
   font-size: 1.2rem; 
   text-decoration: none;
-  padding: 5px 6px;
   margin: -20px 0px 0px 0px;
   text-shadow: 1px 1px 2px black;
 }
@@ -189,7 +188,6 @@ ul.body-nav a, .body-nav a:link, .body-nav a:visited {
 
 .half-hero {
   height: 400px;
-  background-image: url(../assets/img/river-otter-2.jpg);
   background-size: cover;
   background-position: center;
 }
