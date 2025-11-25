@@ -1,1 +1,26 @@
+# macOS System Files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+# Node / JS
+node_modules/
+dist/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / IDE
+.vscode/
+.idea/                   # JetBrains IDEs
+*.iml                    # JetBrains IDEs
+.vscode/                 # VS Code config
+*.sublime-project        # Sublime
+*.sublime-workspace      # Sublime
+*~                       # common editor backups
